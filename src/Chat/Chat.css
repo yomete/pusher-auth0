@@ -1,0 +1,15 @@
+.chat-container {
+    margin-top: 50px;
+}
+.chatmessage-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 700px;
+    display: table;
+}
+.message-box {
+    background-color: #eee;
+    padding: 20px;
+    border-bottom: 1px solid #cccccc;
+}
