@@ -5,9 +5,9 @@ const app = express();
 const Pusher = require('pusher');
 
 const pusher = new Pusher({
-    appId: '350166',
-    key: '76b5338713babaa61969',
-    secret: '018ecefd471b3b8637b6',
+    appId: 'APP_ID',
+    key: 'APP_KEY',
+    secret: 'SECRET',
     cluster: 'eu',
     encrypted: true
 });

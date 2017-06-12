@@ -17,7 +17,7 @@ class Chat extends Component {
     }
     componentWillMount() {
         this.setState({ username: localStorage.username });
-        this.pusher = new Pusher('76b5338713babaa61969', {
+        this.pusher = new Pusher('APP_KEY', {
             authEndpoint: '/pusher/auth',
             cluster: 'eu',
             encrypted: true
