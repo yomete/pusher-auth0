@@ -1,5 +1,5 @@
 export const AUTH_CONFIG = {
-  domain: 'yomi.auth0.com',
-  clientId: 'CshoG9te3C1VTzuHfRLu1F1XwgRbgWgF',
-  callbackUrl: 'http://localhost:3000/callback'
+    domain: 'yourname.auth0.com',
+    clientId: 'xxxxxxxxxxxxxx',
+    callbackUrl: 'http://localhost:3000/callback' //Callback URL set in the Auth0 dasbhoard.
 }

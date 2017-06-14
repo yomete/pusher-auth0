@@ -8,7 +8,7 @@ const pusher = new Pusher({
     appId: 'APP_ID',
     key: 'APP_KEY',
     secret: 'SECRET',
-    cluster: 'eu',
+    cluster: 'YOUR CLUSTER',
     encrypted: true
 });
 
