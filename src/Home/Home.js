@@ -8,8 +8,6 @@ class Home extends Component {
         if (isAuthenticated() ) {
             getProfile();
         }
-        else {
-        }
     }
     login() {
         this.props.auth.login();
