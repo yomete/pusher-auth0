@@ -5,11 +5,10 @@ class Home extends Component {
     componentWillMount() {
         const { isAuthenticated, getProfile } = this.props.auth;
 
-        if (!isAuthenticated() ) {
-
+        if (isAuthenticated() ) {
+            getProfile();
         }
         else {
-            getProfile();
         }
     }
     login() {
