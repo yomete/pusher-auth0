@@ -2,6 +2,8 @@
 
 This app demonstrates how to use ReactJS, Auth0, and Pusher to create a chat app.
 
+You can read the tutorial here on Auth0 - https://auth0.com/blog/build-a-chat-app-with-react/
+
 ## How to run this app
 
 1. Clone the repo - `https://github.com/yomete/pusher-auth0`
